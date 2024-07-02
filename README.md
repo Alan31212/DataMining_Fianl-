@@ -56,7 +56,13 @@ In the wake of an unprecedented global health crisis, the impact of COVID-19 has
 | Accuracy | `0.8996`  | 0.8971 | 0.7750 |
 | F1 | `0.8996`| 0.8971 | 0.7750 |
 | AUC | `0.9616` | 0.9571 | 0.8546 |
- 
+
+| Category  | Full Model | Filter Model | Wrapper Model |
+| :-------- | :--------: | :----------: | :-----------: |
+| Accuracy  | 0.8996     | 0.8971       | 0.7750        |
+| F1        | 0.8996     | 0.8971       | 0.7750        |
+| AUC       | 0.9616     | 0.9571       | 0.8546        |
+
 # Modeling
 
 **After feature selection, we concluded that using the full model would be the best approach. In this section, we use all features and multiple models to test the accuracy, F1 score, and AUC. In conclusion, the `Decision Tree` is the best model according to AUC, while the `Random Forest` is the best model according to accuracy and F1 score.**
