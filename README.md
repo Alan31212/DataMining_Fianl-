@@ -54,19 +54,20 @@ In the wake of an unprecedented global health crisis, the impact of COVID-19 has
 
 | Category  | Full Model | Filter Model | Wrapper Model |
 | :-------- | :--------: | :----------: | :-----------: |
-| Accuracy  | '0.8996'     | 0.8971       | 0.7750        |
-| F1        | '0.8996'     | 0.8971       | 0.7750        |
-| AUC       | '0.9616'     | 0.9571       | 0.8546        |
+| Accuracy  | 0.8996     | 0.8971       | 0.7750        |
+| F1        | 0.8996     | 0.8971       | 0.7750        |
+| AUC       | 0.9616     | 0.9571       | 0.8546        |
 
 # Modeling
 
 **After feature selection, we concluded that using the full model would be the best approach. In this section, we use all features and multiple models to test the accuracy, F1 score, and AUC. In conclusion, the `Decision Tree` is the best model according to AUC, while the `Random Forest` is the best model according to accuracy and F1 score.**
 
-| Category  | Logistic Regression | Decision Tree | SVM | Random Forest | Bagging | GradientBoosting |　
-| :-------- | :--------: | :----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| Accuracy | 0.8994 | 0.9481 | 0.5006 | `0.9547` | 0.9315 | 0.9183 |
-| F1 | 0.8994 | 0.9481 | 0.5006 | `0.9547` | 0.9315 | 0.9183 |
-| AUC | 0.9617 | `0.9929` | 0.1632 | 0.9859 | 0.9767 | 0.9684 |
+| Category | Logistic Regression | Decision Tree | SVM   | Random Forest | Bagging | Gradient Boosting |
+| :------- | :-----------------: | :-----------: | :---: | :-----------: | :-----: | :---------------: |
+| Accuracy |       0.8994        |     0.9481    | 0.5006|     0.9547     | 0.9315  |       0.9183      |
+| F1       |       0.8994        |     0.9481    | 0.5006|     0.9547     | 0.9315  |       0.9183      |
+| AUC      |       0.9617        |     0.9929    | 0.1632|     0.9859     | 0.9767  |       0.9684      |
+
 
 ##
 **In this case, we also calculated and predicted the features that are more related to the people who contracted COVID-19.**
