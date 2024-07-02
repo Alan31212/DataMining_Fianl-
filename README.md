@@ -51,17 +51,12 @@ In the wake of an unprecedented global health crisis, the impact of COVID-19 has
 # Feature selection 
 
 **In this section, we use different models (Full Model, Filter Model, and Wrapper Model) to test the accuracy, F1 score, and AUC. After testing, we found that using all features is the best approach.**
-| Category  | Full Model | Filter Model | Wrapper Model |　
-| :-------- | :--------: | :----------: | :-----------: |
-| Accuracy | `0.8996`  | 0.8971 | 0.7750 |
-| F1 | `0.8996`| 0.8971 | 0.7750 |
-| AUC | `0.9616` | 0.9571 | 0.8546 |
 
 | Category  | Full Model | Filter Model | Wrapper Model |
 | :-------- | :--------: | :----------: | :-----------: |
-| Accuracy  | 0.8996     | 0.8971       | 0.7750        |
-| F1        | 0.8996     | 0.8971       | 0.7750        |
-| AUC       | 0.9616     | 0.9571       | 0.8546        |
+| Accuracy  | '0.8996'     | 0.8971       | 0.7750        |
+| F1        | '0.8996'     | 0.8971       | 0.7750        |
+| AUC       | '0.9616'     | 0.9571       | 0.8546        |
 
 # Modeling
 
